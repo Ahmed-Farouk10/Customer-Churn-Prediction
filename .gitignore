@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data and models
+data/*.csv  # Exclude large datasets
+models/*.pkl  # Exclude trained models
+*.log
+
+# Environment
+.env
+
+# Editor files
+.vscode/
+.DS_Store
